@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="todo">TODO LIST</h1>
+        <input type="text" class="inputbox">
+        <div class="buttons">
+            <button class="addbtn"><img src="add.png" alt="add" class="add"></button>
+            <button class="searchbtn"><img src="search.png" alt="search" class="search"></button>
+            <span class="verticalline">|</span>
+            <select name="Actions" class="action">
+                <option>Actions</option>
+                <option value="Delete Selected">Delete Selected</option>
+                <option value="SelectAll"> SelectAll</option>
+                <option value="UnselectAll"> UnselectAll</option>
+            </select>
+            <select name="Sort" class="sort">
+                <option>Sort</option>
+                <option value="A to Z">A to Z</option>
+                <option value="Z to A"> Z to A</option>
+                <option value="Oldest"> Oldest</option>
+                <option value="Newest"> Newest</option>
+            </select>
+            <div class="state">
+                <button class="allbtn">All</button>
+                <button class="activebtn">Active</button>
+                <button class="completedbtn">Completed</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
